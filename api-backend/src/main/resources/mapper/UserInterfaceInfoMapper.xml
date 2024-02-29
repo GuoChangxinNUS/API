@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yupi.springbootinit.mapper.UserInterfaceInfoMapper">
+<mapper namespace="com.gcx.springbootinit.mapper.UserInterfaceInfoMapper">
 
-    <resultMap id="BaseResultMap" type="com.czq.apicommon.entity.UserInterfaceInfo">
+    <resultMap id="BaseResultMap" type="com.gcx.apicommon.entity.UserInterfaceInfo">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="userId" column="userId" jdbcType="BIGINT"/>
             <result property="interfaceInfoId" column="interfaceInfoId" jdbcType="BIGINT"/>
@@ -22,11 +22,11 @@
         totalNum,leftNum,isDelete,
         status,createTime,updateTime
     </sql>
-    <select id="listTopInterfaceInfo" resultType="com.yupi.springbootinit.model.vo.UserInterfaceInfoAnalysisVo">
+    <select id="listTopInterfaceInfo" resultType="com.gcx.springbootinit.model.vo.UserInterfaceInfoAnalysisVo">
         select interfaceInfoId,sum(totalNum) as sumNum from user_interface_info
         group by interfaceInfoId order by sumNum desc limit #{size}
     </select>
-    <select id="listTopInvokeInterfaceInfo" resultType="com.czq.apicommon.entity.UserInterfaceInfo">
+    <select id="listTopInvokeInterfaceInfo" resultType="com.gcx.apicommon.entity.UserInterfaceInfo">
         select interfaceInfoId, sum(totalNum) as totalNum from user_interface_info group by interfaceInfoId
         order by totalNum desc limit #{limit};
     </select>

@@ -1,4 +1,4 @@
 #Dubbo cache
 #Fri Aug 04 23:24:39 CST 2023
-com.czq.apicommon.service.InnerUserService=["dubbo"]
-com.czq.apicommon.service.ApiBackendService=["dubbo","yuapi-backend"]
+com.gcx.apicommon.service.InnerUserService=["dubbo"]
+com.gcx.apicommon.service.ApiBackendService=["dubbo","yuapi-backend"]

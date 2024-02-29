@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- @author <a href="https://github.com/liyupi">程序员鱼皮</a> -->
-<!-- @from <a href="https://yupi.icu">编程导航知识星球</a> -->
+<!-- @author <a href="https://github.com/ligcx">程序员鱼皮</a> -->
+<!-- @from <a href="https://gcx.icu">编程导航知识星球</a> -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -11,7 +11,7 @@
         <version>2.7.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.yupi</groupId>
+    <groupId>com.gcx</groupId>
     <artifactId>api-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>yuapi-backend</name>
@@ -22,14 +22,14 @@
     <dependencies>
         <!--        引入自己配置的api-sdk-starter-->
         <dependency>
-            <groupId>com.czq</groupId>
+            <groupId>com.gcx</groupId>
             <artifactId>api-client-sdk</artifactId>
             <version>0.0.1</version>
         </dependency>
 
         <!--        引入自己配置公共远程调用接口 -->
         <dependency>
-            <groupId>com.czq</groupId>
+            <groupId>com.gcx</groupId>
             <artifactId>api-common</artifactId>
             <version>0.0.1</version>
         </dependency>

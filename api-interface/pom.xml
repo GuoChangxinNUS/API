@@ -8,7 +8,7 @@
         <version>2.7.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.czq</groupId>
+    <groupId>com.gcx</groupId>
     <artifactId>api-interface</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>api-interface</name>
@@ -19,7 +19,7 @@
     <dependencies>
 <!--        引入自己配置的api-sdk-starter-->
         <dependency>
-            <groupId>com.czq</groupId>
+            <groupId>com.gcx</groupId>
             <artifactId>api-client-sdk</artifactId>
             <version>0.0.1</version>
         </dependency>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.czq.apithirdpartyservices.mapper.AlipayInfoMapper">
+<mapper namespace="com.gcx.apithirdpartyservices.mapper.AlipayInfoMapper">
 
-    <resultMap id="BaseResultMap" type="com.czq.apithirdpartyservices.model.entity.AlipayInfo">
+    <resultMap id="BaseResultMap" type="com.gcx.apithirdpartyservices.model.entity.AlipayInfo">
             <id property="orderNumber" column="orderNumber" jdbcType="VARCHAR"/>
             <result property="subject" column="subject" jdbcType="VARCHAR"/>
             <result property="totalAmount" column="totalAmount" jdbcType="FLOAT"/>

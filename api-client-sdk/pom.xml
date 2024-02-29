@@ -8,7 +8,7 @@
         <version>2.7.13</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.czq</groupId>
+    <groupId>com.gcx</groupId>
     <artifactId>api-client-sdk</artifactId>
     <version>0.0.1</version>
     <name>api-client-sdk</name>

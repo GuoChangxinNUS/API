@@ -8,7 +8,7 @@
         <version>2.7.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.czq</groupId>
+    <groupId>com.gcx</groupId>
     <artifactId>api-order</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>api-order</name>
@@ -20,7 +20,7 @@
 
         <!--        引入自己配置公共远程调用接口 -->
         <dependency>
-            <groupId>com.czq</groupId>
+            <groupId>com.gcx</groupId>
             <artifactId>api-common</artifactId>
             <version>0.0.1</version>
         </dependency>

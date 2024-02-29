@@ -1,7 +1,7 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : czq
+ Source Server         : gcx
  Source Server Type    : MySQL
  Source Server Version : 80025
  Source Host           : localhost:3306
@@ -65,10 +65,10 @@ CREATE TABLE `interface_info`  (
 -- ----------------------------
 -- Records of interface_info
 -- ----------------------------
-INSERT INTO `interface_info` VALUES (3, 'getName', '获取用户名', 'http://localhost:8123/api/interface/name/user', 'post', '{\"Content-Type\":\"application/json\"}', '{\"Content-Type\":\"application/json\"}', 1, 1, '2023-07-08 20:00:14', '2023-07-08 20:00:14', 1, '\n{\"name\":\"name\",\"type\":\"string\"}\n', 'com.czq.apiclientsdk.client.NameApiClient', '{ \"name\": \"czq\"}');
-INSERT INTO `interface_info` VALUES (4, 'getRandomWork', '随机文本', 'http://localhost:8123/api/interface/random/word', 'get', NULL, NULL, 1, 1, '2023-07-29 20:33:55', '2023-07-29 20:33:55', 1, '', 'com.czq.apiclientsdk.client.RandomApiClient', NULL);
-INSERT INTO `interface_info` VALUES (5, 'getRandomImageUrl', '随机动漫图片地址', 'http://localhost:8123/api/interface/random/image', 'post', NULL, NULL, 1, 1, '2023-07-29 21:51:08', '2023-07-29 21:51:08', 1, NULL, 'com.czq.apiclientsdk.client.RandomApiClient', NULL);
-INSERT INTO `interface_info` VALUES (6, 'getDayWallpaperUrl', '每日壁纸URL', 'http://localhost:8123/api/interface/day/wallpaper', 'post', NULL, NULL, 1, 1, '2023-07-29 22:20:10', '2023-07-29 22:20:10', 1, NULL, 'com.czq.apiclientsdk.client.DayApiClient', NULL);
+INSERT INTO `interface_info` VALUES (3, 'getName', '获取用户名', 'http://localhost:8123/api/interface/name/user', 'post', '{\"Content-Type\":\"application/json\"}', '{\"Content-Type\":\"application/json\"}', 1, 1, '2023-07-08 20:00:14', '2023-07-08 20:00:14', 1, '\n{\"name\":\"name\",\"type\":\"string\"}\n', 'com.gcx.apiclientsdk.client.NameApiClient', '{ \"name\": \"gcx\"}');
+INSERT INTO `interface_info` VALUES (4, 'getRandomWork', '随机文本', 'http://localhost:8123/api/interface/random/word', 'get', NULL, NULL, 1, 1, '2023-07-29 20:33:55', '2023-07-29 20:33:55', 1, '', 'com.gcx.apiclientsdk.client.RandomApiClient', NULL);
+INSERT INTO `interface_info` VALUES (5, 'getRandomImageUrl', '随机动漫图片地址', 'http://localhost:8123/api/interface/random/image', 'post', NULL, NULL, 1, 1, '2023-07-29 21:51:08', '2023-07-29 21:51:08', 1, NULL, 'com.gcx.apiclientsdk.client.RandomApiClient', NULL);
+INSERT INTO `interface_info` VALUES (6, 'getDayWallpaperUrl', '每日壁纸URL', 'http://localhost:8123/api/interface/day/wallpaper', 'post', NULL, NULL, 1, 1, '2023-07-29 22:20:10', '2023-07-29 22:20:10', 1, NULL, 'com.gcx.apiclientsdk.client.DayApiClient', NULL);
 
 -- ----------------------------
 -- Table structure for user

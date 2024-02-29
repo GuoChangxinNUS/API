@@ -23,7 +23,7 @@ mybatis-plus:
     map-underscore-to-camel-case: false
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
-czq:
+gcx:
   api:
-    access-key: czq
+    access-key: gcx
     secret-key: abcdefg
